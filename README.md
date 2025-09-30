@@ -1,2 +1,2 @@
-![Image 1](2.jpeg) 
+![Image 1](2.jpg) 
 ![Image 1](babykpur.PNG) 
