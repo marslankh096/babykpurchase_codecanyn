@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/darkcolor"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/date"
+            android:fontFamily="@font/smart"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/start"
+            android:fontFamily="@font/smart"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/duration"
+            android:fontFamily="@font/smart"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/smart"
+            android:text="@string/kicks"
+            android:textColor="@color/primaryTextColor" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lv_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lay1"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/bottom"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/topbar"
+            android:background="@drawable/a2_grad"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/export"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/white"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/export" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/export"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/savehistory"
+
+                android:textAlignment="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:fontFamily="@font/smart"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+

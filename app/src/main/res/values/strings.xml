@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Kick Counter - Track your babys movements</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+    <string name="google_baner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="g_inr">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="g_native">ca-app-pub-3940256099942544/2247696110</string>
+
+
+    <string name="rate">Rate App</string>
+    <string name="share">Share App</string>
+    <string name="privacy">Privacy Policy</string>
+
+    <string name="date">Date</string>
+    <string name="delete_confirm">You are sure you want to delete this session?</string>
+    <string name="duration">Duration</string>
+    <string name="export_col_1">Start</string>
+    <string name="export_col_2">End</string>
+    <string name="export_col_3">Kicks</string>
+    <string name="export_data">Export</string>
+    <string name="export_dialog_title">Export data to excel</string>
+    <string name="export_file_name">BabyKickCount</string>
+    <string name="export_location_default">sdcard/BabyKickCount</string>
+    <string name="export_sheet_name">Kicks</string>
+    <string name="first">First time</string>
+    <string name="h">h</string>
+    <string name="hours">hours</string>
+    <string name="info_detail">Why is it important to count kicks during pregnancy?\n\nFeeling your baby move inside your womb is one of the most exciting things. It is a sign that your little bundle of joy is growing safely inside you and soon will be in your arms. But babies don\'t just start kicking in your womb. First, they bend their neck, which normally starts around the 7th week of pregnancy, then they start moving other parts. At around 16 to 18 weeks into the pregnancy, they start kicking.\n\nKicking is proof that the little one is growing and developing. For the same reason, it is crucial to keep a count of your baby\'s kicks during your pregnancy. Kick count is basically counting the number of times a baby moves over a period of time. The decrease in the movement can be a sign of trouble. A drop in fetal movement also indicates a decrease in amniotic fluid or a ruptured amniotic sac. So, mostly pregnant women are encouraged to monitor or chart their babies\' kicks beginning in the 28th week of pregnancy to evade any complications.\n\nHow to count your baby\'s kick\n\n- Pick a time of day when your baby is most active, usually after you\'ve had a snack or light meal.\n\n- Once you\'re sure she\'s awake, sit with your feet up or lie on your side and start counting movements. Twists, turns, swishes, rolls, and jabs also count as kicks. Hiccups do not.\n\n- Log the number of minutes it takes to count 10 movements.\n\nDoing a kick count generally takes 10 to 15 minutes, but it might take as long as two hours. Overweight women may have a harder time perceiving kicks, Fretts says. Also, remember that the sensations won\'t be as sharp and noticeable as your pregnancy progresses and the baby has less room to move around.\n\nThe bottom line\nIf it takes more than 2 hours to count 10 kicks then you should discuss it with your doctor. The doctor may perform a non-stress test to check the baby\'s heart rate. This situation is not a life-threatening emergency, but it is good to be careful. Also if you notice a sharp decline in your baby\'s movement then visit your doctor.</string>
+    <string name="intruction_1">Click to start button to track your baby movement.</string>
+    <string name="intruction_2">Kick counting is in progress...\nPress the foot button every time your baby kick.</string>
+    <string name="intruction_3">Your baby kick %1$d times in %2$s for today</string>
+    <string name="intruction_4">Kick counting is in progress.\nDone 10 kicks and the session is ready to complete.</string>
+    <string name="intruction_5">Your baby kick 0 times for today</string>
+    <string name="kicks">Kicks</string>
+    <string name="kicks_per_session">Kicks per session</string>
+    <string name="last">Last time</string>
+    <string name="m">m</string>
+    <string name="minutes">minutes</string>
+    <string name="never_ask_again">Never ask again</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="please_wait_export">Exporting, please wait ...</string>
+    <string name="start">Start</string>
+    <string name="total_duration">Total durations</string>
+    <string name="total_kicks">Total kicks</string>
+    <string name="total_session">Total sesstions</string>
+    <string name="seconds">seconds</string>
+
+    <string name="s">s</string>
+
+    <string name="cancel">CANCEL</string>
+    <string name="pick_export_location">Choose folder to save</string>
+    <string name="rationale_storage">Please enable STORAGE permission to continue</string>
+    <string name="toast_export_successful">Export data successfully!</string>
+
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="savehistory">Save History</string>
+    <string name="chart">Kicks</string>
+    <string name="info">Info</string>
+
+</resources>

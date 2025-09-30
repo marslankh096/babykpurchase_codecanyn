@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkcolor"
+    android:orientation="vertical">
+
+
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/a1_grad"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/ver_line_1"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="#c9cad3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ver_line_1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/gotham_regular"
+                    android:text="@string/total_kicks"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_total_kicks"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="40"
+                    android:layout_marginTop="5dp"
+
+                    android:background="@drawable/white_round"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham_light"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ver_line_1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/gotham_regular"
+                    android:text="@string/total_duration"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_total_durations"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="40"
+                    android:layout_marginTop="5dp"
+
+                    android:background="@drawable/white_round"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham_light"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c9cad3" />
+
+        <RelativeLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/ver_line_2"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="#c9cad3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ver_line_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/gotham_regular"
+                    android:text="@string/total_session"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_total_sessions"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="40"
+                    android:layout_marginTop="5dp"
+
+
+                    android:background="@drawable/white_round"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham_light"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ver_line_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/gotham_regular"
+                    android:text="@string/kicks_per_session"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_kicks_per_session"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="40"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/white_round"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham_light"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

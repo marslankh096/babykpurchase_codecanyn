@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:checked="true"
+        android:icon="@drawable/ic_main_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/menu_history"
+        android:checked="false"
+        android:icon="@drawable/ic_main_history"
+        android:title="@string/history" />
+    <item
+        android:id="@+id/menu_statistic"
+        android:checked="false"
+        android:icon="@drawable/ic_main_statistic"
+        android:title="@string/chart" />
+    <item
+        android:id="@+id/menu_setting"
+        android:checked="false"
+        android:icon="@drawable/ic_main_info"
+        android:title="@string/info" />
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorAccent">#ffcc80</color>
+    <color name="colorPrimary">#ff7899</color>
+    <color name="colorPrimaryDark">#ff7899</color>
+
+    <color name="darkcolor">#E6E6E6</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bgColor">#ffffff</color>
+
+
+    <color name="decoColor1">#4dbd67</color>
+    <color name="decoColor2">#ee6e70</color>
+    <color name="dialogBgColor">#ffffff</color>
+    <color name="dividerColor">#1f000000</color>
+    <color name="primaryTextColor">#de000000</color>
+    <color name="secondaryTextColor">#8a000000</color>
+
+</resources>

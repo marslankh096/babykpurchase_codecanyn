@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+
+    <style name="AppTheme2" arent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="textColor">@color/white</item>
+        <item name="fontFamily">@font/gotham_regular</item>
+
+    </style>
+
+
+    <style name="DrawerArrowLight">
+        <item name="color">#000000</item>
+    </style>
+
+
+    <style name="LightTheme">
+        <item name="android:textColorSecondary">#8a000000</item>
+
+        <item name="colorAccent">#ffcc80</item>
+        <item name="colorPrimary">#ff7899</item>
+        <item name="colorPrimaryDark">#ff7899</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowLight</item>
+        <item name="hintTextColor">#60ffffff</item>
+
+    </style>
+
+
+</resources>
